@@ -1,10 +1,8 @@
 <?php
 /**
+ * @author Wilowayne De La Cruz <wilo0087@gmail.com>
  * @package     Joomla.Site
- * @subpackage  mod_menu
- *
- * @copyright   Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ * @subpackage  mod_responsive_menu
  */
 defined('_JEXEC') or die;
 
@@ -99,8 +97,4 @@ defined('_JEXEC') or die;
                 ?>
         </ul>
     </div>
-    <?php
-
-
-
- endif; 
+<?php endif; ?>

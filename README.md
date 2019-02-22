@@ -1,2 +1,2 @@
-# responsive_joomla_menu
-Responsive Joomla menu with easy config
+# Responsive module for joomla 3.x
+

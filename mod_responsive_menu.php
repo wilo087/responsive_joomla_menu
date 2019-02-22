@@ -1,13 +1,8 @@
 <?php
-
 /**
+ * @author Wilowayne De La Cruz <wilo0087@gmail.com>
  * @package     Joomla.Site
  * @subpackage  mod_responsive_menu
- *
- * @author Wilowayne De La Cruz <>
- * 
- * @copyright   Copyright (C) 2015 Open Source Matters, Inc. All rights reserved.
- * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 defined('_JEXEC') or die;
 
@@ -27,7 +22,6 @@ $path = $base->tree;
 
 $showAll = $params->get('showAllChildren');
 $class_sfx = htmlspecialchars($params->get('class_sfx'));
-
 
 require JModuleHelper::getLayoutPath('mod_responsive_menu', $params->get('layout', 'default'));
 
